@@ -5,12 +5,12 @@ load_dotenv()
 que = {}
 admins = {}
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-BOT_NAME = getenv("BOT_NAME","ManMusic")
-BOT_USERNAME = getenv("BOT_USERNAME", "")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+API_ID = int(getenv("API_ID", "26689028"))
+API_HASH = getenv("API_HASH", "HRKU-326a8859-e979-4132-a9ef-99d3b27bd176")
+BOT_TOKEN = getenv("BOT_TOKEN", "7515695303:AAEGslztlvsceODJTmRdDoGhwy0RDJXP04M")
+BOT_NAME = getenv("BOT_NAME","idoyx")
+BOT_USERNAME = getenv("BOT_USERNAME", "@idoyyyx_bot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@akutaker")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AzumanProject")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 START_IMG = getenv("START_IMG", "")
